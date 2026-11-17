@@ -16,6 +16,10 @@
 
 # [a2ui_flutter](https://pub.dev/packages/a2ui_flutter) Changelog
 
+## Unreleased
+
+- **Breaking:** Migrates from `package:flutter/material.dart` to `package:material_ui/material_ui.dart` (`^1.0.0`) and raises the minimum Dart/Flutter bounds to `sdk: ">=3.13.0 <4.0.0"` and `flutter: ">=3.47.0"`. Apps that still import `package:flutter/material.dart` should migrate to `material_ui` or wrap legacy subtrees with `MaterialUiCompatibilityBridge` ([#3235](https://github.com/a2ui-project/a2ui/issues/3235), [#4280](https://github.com/a2ui-project/a2ui/pull/4280)).
+
 ## 0.4.0
 
 - **Breaking:** Requires `a2ui_core` `^0.8.0`, whose types this library
