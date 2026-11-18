@@ -33,8 +33,7 @@ final ComponentImplementation _rating = ComponentImplementation(
     properties: {
       'label': CommonSchemas.dynamicString,
       'value': Schema.fromMap({
-        r'$ref':
-            'https://a2ui.org/specification/v0_9/common_types.json#/\$defs/DynamicNumber',
+        r'$ref': 'https://a2ui.org/specification/v0_9/common_types.json#/\$defs/DynamicNumber',
       }),
       'onChanged': CommonSchemas.action,
     },
